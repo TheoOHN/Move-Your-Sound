@@ -1,4 +1,4 @@
-# Move Your Sound
+# Move Your Sound - TouchDesigner
 
 The **Move Your Sound** project aims to design instruments that can be played only **with the hands**, like theremins. \
 This is an **open-source projec**t initially designed for a **Digital Creation school project at ECE Paris**, which is intended to evolve over time and with contributions from the community. \
