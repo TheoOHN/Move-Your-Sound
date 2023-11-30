@@ -1,34 +1,37 @@
 # Move Your Sound - TouchDesigner
 
-The **Move Your Sound** project aims to design instruments that can be played only **with the hands**, like theremins. \
-This is an **open-source projec**t initially designed for a **Digital Creation school project at ECE Paris**, which is intended to evolve over time and with contributions from the community. \
-The tools used can be as varied as TouchDesigner, MAX 8 or pure JUCE code - **the possibilities are endless**!
+The **TouchDesigner** version of the project lets you manage various parameters of a **universal MIDI controller** that can be adapted to **any DAW**.
 
+## Installation & Initialization
 
-## Available versions
+To use this version of the project, you need to install :
+-  [TouchDesigner](https://derivative.ca/)
 
-- [TouchDesigner](https://derivative.ca/)
+## Available controls
 
+### Default controls
 
-## Incoming versions
+Your **left hand** controls the **playing mode** you'll be managing. Specific signs made with this hand will give you access to a whole range of different controls.
 
-- [Max 8](https://cycling74.com/products/max)
-- [JUCE](https://juce.com/)
-- [Pure Data](https://puredata.info/)
+### Theremin mode
 
+**Close your fist** with your left hand and you'll have access to theremin mode controls! 
 
-## Contributing
+- **Note control** : _Right hand Y_
+- **MIDI control for effect** : _Left hand Y_
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+Theremin mode also has two modes: 
+- **Discrete**: for single-note triggering control (_Right hand index pointing up_)
+- **Continuous**: allows continuous control of note triggering (_Right hand index and middle finger pointing up_) 
 
-Please make sure to update tests as appropriate.
+### Arpeggiator mode
 
+**Raise your index and middle finger** on your left hand and you'll have access to arpeggiator mode controls!
 
-## Authors
+- **Base note control** : _Right hand Y_
+- **Arpeggiator frequency** : _Left hand Y_
+- **Chord mode** : _Right hand X_
 
-- [Alexandre Chauchard](https://www.linkedin.com/in/alexandre-chauchard-9325b8190/)
-- [Nicolas Depelley](https://www.linkedin.com/in/nicolas-depelley-a9a8501b6/)
-- [Severin Jacquis](https://www.linkedin.com/in/severin-jacquis-750b69218/)
-- [Julien Lelièvre](https://www.linkedin.com/in/julien-leli%C3%A8vre-365088220/)
-- [Théo Ouchene](https://www.linkedin.com/in/th%C3%A9o-ouchene-69359021b/)
+## External tools
+
+- [MediaPipe for TouchDesigner](https://www.bing.com/videos/riverview/relatedvideo?&q=mediapipe+touchdesigner&&mid=74B950363BAC46D40274B950363BAC46D402&&&FORM=VRDGAR)
